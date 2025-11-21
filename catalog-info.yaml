@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: angular-app-test
+  description: This is a mock angular app for testing purposes
+  annotations:
+    github.com/project-slug: qhr-cintiaschutt/angular-app-test
+    backstage.io/techdocs-ref: dir:.
+    # Uncomment bellow and add your workflows in the format:
+    # github.com/workflows: file.yaml,file2.yaml,file3.yaml
+spec:
+  type: website
+  lifecycle: production
+  owner: group:default/keystone
